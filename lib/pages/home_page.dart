@@ -239,7 +239,7 @@ class _HomePageState extends State<HomePage> {
                                   color: kBlack.withOpacity(0.1),
                                 )
                               ],
-                              image: DecorationImage(
+                              image: const DecorationImage(
                                   image: NetworkImage(
                                       "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_640.jpg"),
                                   fit: BoxFit.cover)),
@@ -338,7 +338,7 @@ class _HomePageState extends State<HomePage> {
                       );
                     }),
               ),
-              SizedBox(
+              const SizedBox(
                 height: kPadding24,
               ),
               Padding(
